@@ -6,7 +6,7 @@ const app = express()
 const cors = require('cors')
 
 // models:
-const Note = require('./models/Note')
+// const Note = require('./models/Note')
 
 // middlewares:
 const notFound = require('./middleware/notFound')

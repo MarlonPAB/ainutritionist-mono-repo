@@ -51,7 +51,7 @@ context('Assertions', () => {
     // https://on.cypress.io/assertions
     it('expect - make an assertion about a specified subject', () => {
       // We can use Chai's BDD style assertions
-      expect(true).to.be.true
+      expect(true).to.be.true()
       const o = { foo: 'bar' }
 
       expect(o).to.equal(o)
@@ -84,7 +84,7 @@ context('Assertions', () => {
           expect(paragraphs, 'has expected text in each paragraph').to.deep.eq([
             'Some text from first p',
             'More text from second p',
-            'And even more text from third p',
+            'And even more text from third p'
           ])
         })
     })
@@ -158,7 +158,7 @@ context('Assertions', () => {
     it('assert - assert shape of an object', () => {
       const person = {
         name: 'Joe',
-        age: 20,
+        age: 20
       }
 
       assert.isObject(person, 'value is object')
