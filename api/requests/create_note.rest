@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/notes
+Content-Type:application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTFkZTI0MWU4YzM1MDVkN2Y0MjYzZSIsImVtYWlsIjoiVXNlck5hbWVUZXN0MUBnbWFpbC5jb20iLCJpYXQiOjE3MDk2Njk3NjQsImV4cCI6MTcxMDI3NDU2NH0._2CASl79jV2bOOflCn-YCE8zK-YWDg6gSgP0ZuDkyVU
+
+{
+    "content":"AUTSILIO",
+    "important":false
+}
